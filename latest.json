@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_at": "2026-09-20T15:58:00+09:00",
-  "source": "chatgpt-github-bridge",
+  "source": "sungho-dashboard-public-summary",
   "sa": {
     "date": "2026-09-20",
     "summary": "Fed 인상과 미국 10년물 5% 부근·유가 약 $100의 할인율 부담에도 Nasdaq과 대형 성장주는 견조했고, AI 투자 관심은 GPU 일변도에서 소프트웨어·메모리·전력망/전력인프라로 확산되는 신호가 나타남.",
@@ -43,17 +43,17 @@
     "dc": {
       "date": "2026-09-20",
       "status": "DEFENSIVE_NEW_MONEY",
-      "summary": "국장·미장에 이미 AI·반도체·전력 Exposure가 높아 DC 신규자금까지 성장자산에 넣으면 가계 Factor 중복이 확대.",
+      "summary": "여러 투자계정에서 AI·반도체·전력 관련 성장자산 노출이 겹칠 수 있어 DC 신규자금의 Factor 중복 관리가 필요.",
       "action": "기존 우량 성장 ETF는 급히 매도하지 않고 신규 부담금은 예수금·원리금보장·채권성 안전자산을 우선 보강.",
-      "detail": "DC는 개별 ETF 전망보다 국장+미장+DC 합산 Risk Budget으로 관리. 신규자금으로 위험자산 비중을 자연 희석.",
+      "detail": "DC는 개별 ETF 전망보다 전체 투자자산의 합산 Risk Budget으로 관리하고 신규자금으로 위험자산 비중을 점진적으로 조절.",
       "gpt_required": false
     },
     "retirement": {
       "date": "2026-09-20",
       "status": "LIQUIDITY_BUILD",
-      "summary": "장기 성장동력은 유지되지만 현금성 안전자산이 얇아 시장 조정 시 강제매도 위험이 상대적으로 큼.",
-      "action": "신규자금 일부를 현금성·단기채 안전버퍼로 전환. 마이너스통장 금리와 단기채 세후수익률을 우선 비교.",
-      "detail": "노후자산 목표는 최고수익률보다 55세 이후 선택권과 강제매도 방지. Core 주식을 팔기보다 신규자금으로 안전자산 구축.",
+      "summary": "장기 투자 목표는 유지하되 시장 조정에 대비한 유동성 안전버퍼 보강이 필요.",
+      "action": "신규자금 일부를 현금성·단기채 안전버퍼로 배분하고 세후수익률과 유동성 확보 효과를 함께 비교.",
+      "detail": "장기 선택권과 강제매도 방지를 우선하며, 기존 Core 자산을 급히 매도하기보다 신규자금으로 안전자산을 보강.",
       "gpt_required": false
     }
   }
