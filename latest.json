@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-20T15:58:00+09:00",
+  "source": "chatgpt-github-bridge",
+  "sa": {
+    "date": "2026-09-20",
+    "summary": "Fed 인상과 미국 10년물 5% 부근·유가 약 $100의 할인율 부담에도 Nasdaq과 대형 성장주는 견조했고, AI 투자 관심은 GPU 일변도에서 소프트웨어·메모리·전력망/전력인프라로 확산되는 신호가 나타남.",
+    "macro": "Fed +25bp로 3.75~4.00%||미국 10년물 약 4.996%||WTI $99.53/bbl||AI 투자축이 소프트웨어·메모리·전력인프라로 확산||Dow -1.7%, S&P500 -0.1%, Nasdaq +0.7%",
+    "headlines": [
+      "고금리·10Y 5% 부근에도 Nasdaq·Mag7 중심 시장 방어",
+      "AI 하드웨어 집중에서 agentic software·memory·power/grid로 투자 관심 확산 주장",
+      "AMKR +4.9%, ON +2.46%로 관심 반도체 강세이나 반도체 ETF 과밀·ASIC 경쟁 리스크 제기",
+      "Westinghouse $50B+ IPO 추진과 Generac 데이터센터 전력 뉴스로 원전·AI 전력인프라 테마 확인"
+    ],
+    "actions": [
+      "미장 엔진에서 10Y 5%·유가 $100·AI CAPEX와 MRVL/CRDO/AMKR/ON/STM/IFX EPS revision을 함께 재검증",
+      "국장/DC 엔진에서 전력인프라 강세 확인과 기존 전력·반도체 노출 비중을 분리해 신규매수 필요성 재판단",
+      "노후자산 엔진에서 미국채 기대수익 개선과 유가·인플레이션·장기금리 재상승 위험을 함께 반영해 현금·채권 신규자금 배분 재검토"
+    ],
+    "gpt_required": true,
+    "detail": "최근 24시간 연결 Gmail 2개 계정의 Seeking Alpha 메일을 중복 제거해 분석. 핵심 수치는 Fed 25bp 인상 및 3.75~4.00%, 미국 10년물 약 4.996%, WTI $99.53/bbl, Dow -1.7%, S&P500 -0.1%, Nasdaq +0.7%, AMKR +4.9%, ON +2.46%, VST -2.01%. 금리·10Y·유가 부담과 AI/전력 인프라 실적 모멘텀이 충돌하므로 국장·미장·DC·노후자산 엔진 교차검토가 필요."
+  },
+  "market": {
+    "summary": "Fed 인상·미 10Y 5% 부근·WTI 약 $100 vs Nasdaq/대형 성장주 상대강세. AI 투자축의 전력·메모리·소프트웨어 확산 여부 확인."
+  },
+  "engines": {
+    "us": {
+      "date": "2026-09-20",
+      "status": "WATCH_HAWKISH",
+      "summary": "Fed 인상과 미 국채금리 상승으로 할인율 부담이 커졌지만 AI CAPEX 수혜는 전력·냉각·광통신·메모리·소프트웨어로 분화.",
+      "action": "전력·냉각·광통신 등 EPS Revision 확인 종목은 유지하고 고PER 신규 추격매수는 중단. 미국채는 단기→중기→장기 순으로 분할 Duration 확대.",
+      "detail": "금리 위험은 상승했으나 전면 Risk-Off 신호는 아님. AI 인프라 2차 수혜의 EPS Revision과 크레딧 스프레드를 함께 확인.",
+      "gpt_required": false
+    },
+    "korea": {
+      "date": "2026-09-20",
+      "status": "CORE_HOLD_NO_CHASE",
+      "summary": "AI 데이터센터와 전기화가 한국 전력기기 성장 논리를 재확인. 고금리·고유가는 2차전지 등 금리민감 업종에는 상대적으로 불리.",
+      "action": "전력기기 Core는 유지하되 추가 집중은 피하고 자연희석. 전력기기 Exposure는 합산 관리하고 2차전지 신규 비중확대는 보류.",
+      "detail": "전력기기 구조적 수요는 긍정적이나 집중도는 더 높이지 않음. 메모리는 HBM과 범용 DRAM을 분리 판단.",
+      "gpt_required": false
+    },
+    "dc": {
+      "date": "2026-09-20",
+      "status": "DEFENSIVE_NEW_MONEY",
+      "summary": "국장·미장에 이미 AI·반도체·전력 Exposure가 높아 DC 신규자금까지 성장자산에 넣으면 가계 Factor 중복이 확대.",
+      "action": "기존 우량 성장 ETF는 급히 매도하지 않고 신규 부담금은 예수금·원리금보장·채권성 안전자산을 우선 보강.",
+      "detail": "DC는 개별 ETF 전망보다 국장+미장+DC 합산 Risk Budget으로 관리. 신규자금으로 위험자산 비중을 자연 희석.",
+      "gpt_required": false
+    },
+    "retirement": {
+      "date": "2026-09-20",
+      "status": "LIQUIDITY_BUILD",
+      "summary": "장기 성장동력은 유지되지만 현금성 안전자산이 얇아 시장 조정 시 강제매도 위험이 상대적으로 큼.",
+      "action": "신규자금 일부를 현금성·단기채 안전버퍼로 전환. 마이너스통장 금리와 단기채 세후수익률을 우선 비교.",
+      "detail": "노후자산 목표는 최고수익률보다 55세 이후 선택권과 강제매도 방지. Core 주식을 팔기보다 신규자금으로 안전자산 구축.",
+      "gpt_required": false
+    }
+  }
+}
